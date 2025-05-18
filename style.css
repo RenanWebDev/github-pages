@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: auto auto;
+}
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  list-style: none;
+  gap: 40px;
+  justify-content: end;
+}
+
+ul li a:hover {
+  color: #000000;
+}
+a {
+  color: #808080;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.titulo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.dourado {
+  color: #ffdf00;
+}
+
+.text {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #2e2e2e;
+}
+
+.negrito {
+  font-weight: bold;
+}
